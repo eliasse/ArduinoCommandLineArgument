@@ -1,0 +1,19 @@
+
+class MENU {
+ public:
+  struct Arg {
+    const char *str;
+    long i;
+    float f;
+  };
+};
+
+void setup()
+{
+
+}
+
+void loop()
+{
+
+}
