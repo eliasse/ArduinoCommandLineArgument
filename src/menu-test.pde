@@ -4,6 +4,11 @@
 
 int Tjena(int argc, struct CommandParser::arg argv[])
 {
+  if (argc < 2) {
+    Serial.println("Too few arguments...");
+    return 1;
+  }
+
   Serial.println("TJENA MITTBENA");
 
   for (int i = 1; i < argc; i++) {

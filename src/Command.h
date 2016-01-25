@@ -23,7 +23,6 @@ public:
   // Comparator for map::find
   struct cmpStrings {
     bool operator() (const String &a, const String &b) const {
-      //return !(a == b);
       return a<b;
     }
   };
